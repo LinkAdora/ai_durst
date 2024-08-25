@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>AI Durst - Profile Patient</title>
+        <meta name = "description" content = "AI Durst">
+        <meta name = "viewport" content = "width=device-width, initial-scale=0">
+        <link rel = "stylesheet" type = "text/css" href = "profilepatient.css">
+        <!-- Font Inter--> 
+        <script src="https://kit.fontawesome.com/b20eaf92de.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <script>
+        $(document).ready(function(){
+            $("#xacnhan").hide();
+            $("#huylich").hide();
+        });
+    </script>
+    <body>
+        <section class = "header" id = "header">
+            <section class = "first" id = "first">
+                <img src="logo.png" alt="AI Durst's logo" class = "logo">
+                <div class = "search" id = "search">
+                    <i class="fa-solid fa-magnifying-glass fa-sm" id = "search_icon" style = "margin-top: 0.95vw; margin-left: 0.5vw"></i>
+                    <form><input id = "search_box" class = "search_box"></form>
+                </div>
+                <div class = "options" id = "options">
+                    <i class="fa-regular fa-circle-question fa-lg" style = "color: #184e75"></i>
+                    <i class="fa-regular fa-bell fa-lg" style = "color: #184e75"></i>
+                    <i class="fa-regular fa-user fa-lg" style = "color: #184e75"></i>
+                </div>
+            </section>
+            <section class = "second" id = "second">
+                <a href="">Đặt lịch</a>
+                <a href="">Chỉ số</a>
+                <a href="">Cẩm nang</a>
+            </section> 
+        </section>
+        <section class = "profile" id = "profile">
+            <p class = "title" id = "title">Hồ sơ bệnh nhân</p>
+            <a href = "" class = "return" id = "return">Quay lại trang trước...</a>
+            <div class = "content" id = "content">
+                <img src="usersquare.png" alt="AI Durst's logo" class = "userimg">
+                <div class = "info" id = "info">
+                    <p style = "font-size: 1.5vw; font-weight: 450; margin-top: 1.5vw;">Bệnh nhân</p>
+                    <p class = "name" id = "name">Mehrab Rappo</p>
+                    <p class = "id" id = "id">Mã bệnh nhân: A1</p>
+                    <div class = "personal" id = "personal">
+                        <p class = "gender" id = "gender">Giới tính: Nam</p>
+                        <p class = "email" id = "email">Email: ...</p>
+                        <p class = "tel" id = "tel">Số điện thoại: ...</p>
+                        <p class = "dichvu" id = "dichvu">Dịch vụ đăng ký: <b>Ngoại trú</b></p>
+                    </div>
+                    <div class = "chandoan" id = "chandoan">
+                        <p class = "ai" id = "ai">Kết quả chẩn đoán từ AI:</p>
+                        <p class = "kq" id = "kq">Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah blah blah blah Blah blah blah blah blah blah </p> <!--print kết quả chẩn đoán AI-->
+                    </div> 
+                    <button class = "kqtong" id = "kqtong">ĐIỀN KẾT LUẬN VÀO PHIẾU KẾT QUẢ BỆNH NHÂN</button> <!--hiện sau khi xác nhận-->
+                    <button class = "xacnhan" id = "xacnhan">XÁC NHẬN LỊCH KHÁM</button> <!--hiện khi bệnh nhân đăng kí-->
+                    <button class = "huylich" id = "huylich">HUỶ LỊCH KHÁM</button> <!--hiện khi bệnh nhân đăng kí-->
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

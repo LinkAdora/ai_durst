@@ -1,0 +1,13 @@
+ROLE BỆNH NHÂN:
+- Để y như code, không chỉnh gì
+
+ROLE BÁC SĨ:
+- Hiện #first, vẫn ẩn #firstbsi
+- Hiện #second, vẫn ẩn #secondbsi
+- Khi bác sĩ click button #edit -> Chuyển sang chế độ edit
+
+Chế độ Edit:
+- Ẩn #first, hiện #firstbsi
+- Ẩn #second, hiện #secondbsi
+- Khi bác sĩ click #cancel -> hiện data như ban đầu
+- Khi bác sĩ click #save -> Chỉnh lại data và hiện data mới

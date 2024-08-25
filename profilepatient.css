@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0.5vw 0;
+    padding: 0;
+}
+.header {
+    padding: 0;
+}
+.header .first {
+    display: flex;
+    height: 100%;
+}
+.header .first .logo {
+    width: 4%;
+    height: 4%;
+    margin-bottom: 0.5vw;
+    margin-left: 1vw;
+}
+.header .first .search {
+    height: 1.8vw;
+    display: flex;
+    margin-left: 15%;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.25%;
+    border-bottom: 0.1vw solid #000000;
+}
+.header .first .search_box {
+    font-family: "Inter", sans-serif;
+    border: none;
+    width: 55vw;
+    font-size: 1.1vw;
+    color: #7c7c7c;
+    padding: 0 1vw;
+    margin-top: 0.3vw;
+}
+.header .first input {
+    margin-bottom: -1vw;
+}
+.header .first input:focus {
+    outline: none;
+    color: #7c7c7c;
+}  
+.header .first .options {
+    height: 1.8vw;
+    display: flex;
+    margin-left: 12%;
+}
+.header .first .options i {
+    margin-right: 1.5vw;
+    margin-top: 19%;
+}
+.header .second {
+    background-color: #184e75;
+    height: 100%;
+    padding: 1vw 5vw;
+    color: #ffffff;
+}
+.header .second a {
+    color: #ffffff;
+    text-decoration: None;
+    font-size: 0.9vw;
+    margin-right: 5vw;
+}
+.profile {
+    padding-left: 4vw;
+}
+.profile .title {
+    color: #000000;
+    font-size: 2.5vw;
+    font-weight: 550;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.profile .return {
+    text-decoration: none;
+    color: #4891B6;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.profile .content {
+    margin-top: 2vw;
+    display: flex;
+}
+.profile .content .userimg {
+    width: 40%;
+    height: 40%;
+}
+.profile .content .info {
+    margin: 0 3vw;
+}
+.profile .content .info .name {
+    font-weight: 750;
+    font-size: 4.5vw;
+    margin-top: -0.5vw;
+}
+.profile .content .info .id {
+    font-weight: 400;
+    font-size: 2vw;
+    margin-top: -3vw;
+}
+.profile .content .info .personal p {
+    font-size: 1.3vw;
+}
+.profile .content .info .chandoan .ai {
+    font-size: 1.2vw;
+    font-weight: 650;
+    color: #4891B6;
+    margin-top: 1.5vw;
+}
+.profile .content .info .chandoan .kq {
+    color: #000000;
+    font-size: 1vw;
+}
+.profile .content .kqtong {
+    background-color: #003854;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1.1vw 5vw;
+    width: 98%;
+    font-size: 1.2vw;
+    border: none;
+}

@@ -1,0 +1,13 @@
+ROLE BỆNH NHÂN:
+- Để y như code, không chỉnh gì
+
+ROLE BÁC SĨ:
+- Hiện #note, vẫn ẩn #dctnote
+- Hiện #edit, vẫn ẩn #editor
+- Khi bác sĩ click button #edit -> Chuyển sang chế độ edit
+
+Chế độ Edit:
+- Ẩn #note, hiện #dctnote
+- Ẩn #edit, hiện #editor
+- Khi bác sĩ click #cancel -> hiện data như ban đầu
+- Khi bác sĩ click #save -> Chỉnh lại data và hiện data mới
